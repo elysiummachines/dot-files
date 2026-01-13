@@ -74,9 +74,9 @@ Host gitlab.com
 
 # Compose Host (DK01)
 Host dk01.alprojects.tech
-    HostName dk01.alprojects.tech
+    HostName Name
     User echo
-    Port 3100
+    Port 
     IdentityFile ~/.ssh/keys/compose/id_ed25519
     AddKeysToAgent yes
     IdentitiesOnly yes
